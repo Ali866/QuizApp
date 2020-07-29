@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+<link rel="stylesheet" href="QuizStyle.css">
+</head>
+ 
+<body onload="DispQues(0), Timer(), showName()">
+    <div class="wrapper">
+        <div class="quiz">
+            <div class="header">
+                <span id="intro"  > </span>
+                <span id="timer"  >00:00</span>
+            </div>
+            <div class="body">
+                <div class="question">
+                    <h2 id="ques">What is your name?</h2>
+                    <ul class="list">
+                        <li class="option" onclick="putActiveClass(this)">ALI</li>
+                        <li class="option" onclick="putActiveClass(this)">AQEEL</li>
+                        <li class="option" onclick="putActiveClass(this)">AMMAD</li>
+                        <li class="option " onclick="putActiveClass(this)">ZEESHAN</li>
+                    </ul>
+                </div>
+                <button class="btn" id="next" onclick="ShowNext()">Next</button>
+                <!-- <button class="btn prev" id="previous" onclick="previous()">Previous</button> -->
+
+            </div>
+                
+            </body>
+        </div>
+    </div>
+
+
+    <script src="QuizApp.js"></script>
+</body>
+</html>
