@@ -60,52 +60,52 @@ function startQuiz(){
 
 var questionsArray = [
     {
-        question: "Full Form of RAM is?",
-        answer: "random access memory",
+        question: "Current President of Pakistan?",
+        answer: "Arif Alvi",
         options: [
-            "random access memory",
-            "random actual memory",
-            "right access memory",
+            "Imran Khan",
+            "Raheel Shareef",
+            "Iskander Mirza",
+            "Arif Alvi",
+        ]
+    },
+    {
+        question: "ducation Minister of Sindh?",
+        answer: "Saeed Ghani",
+        options: [
+            "Saeed Ghani",
+            "Ishrat ul Ibad",
+            "Amir Liaqat",
             "none of the above",
         ]
     },
     {
-        question: "Full Form of CPU is?",
-        answer: "central processing unit",
+        question: "Full Form of CPEC?",
+        answer: "China Pakistan Economic Corridor",
         options: [
-            "central program unit",
-            "central processing unit",
-            "control panel unit",
+            "China Pakistan Election Commission",
+            "China Pakistan Economic Corridor",
+            "China Punjab Electric Corporate",
             "none of the above",
         ]
     },
     {
-        question: "Full Form of E-MAIL is?",
-        answer: "electronic mail",
+        question: "Where is Niagara Falls Situated?",
+        answer: "Canada",
         options: [
-            "electric mail",
-            "easy mail",
-            "electronic mail",
-            "none of the above",
+            "Australia",
+            "Pakistan",
+            "Swithzerland",
+            "Canada",
         ]
     },
     {
-        question: "Full Form of LCD is?",
-        answer: "liquid crystal display",
+        question: " Who owns Google ?",
+        answer: "Alphabet",
         options: [
-            "liquid crystal display",
-            "light crystal display",
-            "liquid cold display",
-            "none of the above",
-        ]
-    },
-    {
-        question: "Full Form of SEO is?",
-        answer: "none of the above",
-        options: [
-            "safe engine optimization",
-            "secure engine optimization",
-            "secret engine optimization",
+            "Microsoft",
+            "Facebook",
+            "Apple",
             "none of the above",
         ]
     },
@@ -137,17 +137,7 @@ if(qCount <= questionsArray.length-1){
 removeActiveClass();
 setResult();
 }
-
-//PREVIOUS BUTTON//
-// function previous(e){
-//     var prev=document.getElementById("previous")
-//      qCount--;
-//     DispQues(qCount);
-//     removeActiveClass();
-//     setResult();
-
-//      }
-
+ 
 
 function putActiveClass(e){
     removeActiveClass()

@@ -179,6 +179,12 @@ display: block;
         height: 200px;
         margin: 0 auto;
     }
+    #timer{
+        font-size: 16px;
+    }
+    #intro{
+        font-size: 20px;
+    }
     
    h2{
        font-size: 18px;
@@ -198,12 +204,22 @@ display: block;
      margin-right: 55px;
  }
 }
-@media screen and (max-width:378px)
+@media screen and (max-width:370px)
 {
     
  .btn{
-    margin-right: 50px;
+     float: left;
+    margin-left: 60px;
 }
+#timer{
+    font-size: 14px;
+    margin-right: 20px;
+}
+#intro{
+    font-size: 18px;
+    
+}
+
 }
 @media screen and (max-width:520px)
 {
@@ -223,9 +239,22 @@ display: block;
  
 }
 .btn{
- margin-right: 80px;
+ margin-right: 60px;
 }
 
+}
+@media screen and (max-width:330px){
+    .btn{
+        margin-right: 20px;
+       }
+    
+.wrapper{
+    width: 80%;
+     display: flex;
+    justify-content: center;
+    margin: 0 auto;
+ 
+}
 }
 
 
