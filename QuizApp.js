@@ -43,7 +43,7 @@ function Timer(){
         time--;
 
         if(minutes == 00 && seconds == 00){
-            alert("Oopps!! Time Up");
+            alert("Sorry!! Time Up");
             window.location.href = "result.html";
         }
     }
@@ -52,7 +52,7 @@ function Timer(){
 
 //START BUTTON//
 function startQuiz(){
-    window.location.href = "index.html";
+    window.location.href = "mainPage.html";
 }
 
 
@@ -70,7 +70,7 @@ var questionsArray = [
         ]
     },
     {
-        question: "ducation Minister of Sindh?",
+        question: "Education Minister of Sindh?",
         answer: "Saeed Ghani",
         options: [
             "Saeed Ghani",
@@ -100,8 +100,8 @@ var questionsArray = [
         ]
     },
     {
-        question: " Who owns Google ?",
-        answer: "Alphabet",
+        question: "Who owns Google?",
+        answer: "none of the above",
         options: [
             "Microsoft",
             "Facebook",
@@ -152,7 +152,7 @@ function removeActiveClass(){
 //FOR COMPARING THE SELECTED ANS WITH CORRECT ANS//
 function compare(e){
     var ans= document.getElementsByClassName("active")
-    if(ans[0].innerHTML.toLocaleLowerCase() == questionsArray[e].answer){
+    if(ans[0].innerHTML == questionsArray[e].answer){
         score += 10;
  console.log(score);
     }

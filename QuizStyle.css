@@ -204,6 +204,17 @@ display: block;
      margin-right: 55px;
  }
 }
+@media screen and (max-width:350px)
+{
+    h1{
+        text-align: center;
+     }
+     .textField{
+        margin: 0 auto;
+        text-align: center;
+        margin-left: -16px;
+     }
+}
 @media screen and (max-width:370px)
 {
     
